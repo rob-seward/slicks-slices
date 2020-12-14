@@ -29,7 +29,7 @@ export default function usePizza({ pizzas, values }) {
   // this is the function that is run when someone submits the form
   async function submitOrder(event) {
     event.preventDefault();
-    console.log(event);
+    
     setLoading(true);
     setError(null);
     // setMessage('Go Eat');
@@ -59,9 +59,9 @@ export default function usePizza({ pizzas, values }) {
       }
     );
 
-    console.log(res);
+   
     const text = JSON.parse(await res.text());
-    console.log(text);
+   
 
     // check if everything worked
     if (res.status >= 400 && res.status < 600) {
