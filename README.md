@@ -1,5 +1,5 @@
 # slicks-slices
-pizzas
+order pizzas, react hooks, server-less functions... https://cranky-yonath-9b6f8b.netlify.app
 
 html / js / css
 / gatsby / react
@@ -7,9 +7,6 @@ html / js / css
 netlify / git
 
 WesBos - Master Gatsby 
-
-You can see the site here: https://cranky-yonath-9b6f8b.netlify.app
-
 
 Thanks to Wes!...This was awesome go around Gatsby, checking out different ways of sourcing and rendering out data.
 I loved the front end stuff using grid and getting familiar with clamp and css custom properties for responsivenessssss.
